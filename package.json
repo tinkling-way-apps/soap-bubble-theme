@@ -1,0 +1,73 @@
+{
+  "name": "soap-bubble",
+  "displayName": "Soap Bubble",
+  "description": "Six vivid light themes with a rainbow frame, for windows you only read: production code, vendored libraries, other people's repositories. Title bar, tabs, panel, side bar, activity bar and status bar each take one of six colors; each theme shifts the colors one zone along.",
+  "version": "0.0.1",
+  "publisher": "tinklingway",
+  "license": "GPL-3.0-only",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tinkling-way-apps/soap-bubble-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tinkling-way-apps/soap-bubble-theme/issues"
+  },
+  "homepage": "https://github.com/tinkling-way-apps/soap-bubble-theme#readme",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#edebe8",
+    "theme": "light"
+  },
+  "engines": {
+    "vscode": "^1.140.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "light",
+    "rainbow",
+    "vivid",
+    "soap",
+    "bubble",
+    "production",
+    "read-only",
+    "reference"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Soap Bubble: Red",
+        "uiTheme": "vs",
+        "path": "./themes/red-color-theme.json"
+      },
+      {
+        "label": "Soap Bubble: Orange",
+        "uiTheme": "vs",
+        "path": "./themes/orange-color-theme.json"
+      },
+      {
+        "label": "Soap Bubble: Yellow",
+        "uiTheme": "vs",
+        "path": "./themes/yellow-color-theme.json"
+      },
+      {
+        "label": "Soap Bubble: Green",
+        "uiTheme": "vs",
+        "path": "./themes/green-color-theme.json"
+      },
+      {
+        "label": "Soap Bubble: Blue",
+        "uiTheme": "vs",
+        "path": "./themes/blue-color-theme.json"
+      },
+      {
+        "label": "Soap Bubble: Violet",
+        "uiTheme": "vs",
+        "path": "./themes/violet-color-theme.json"
+      }
+    ]
+  }
+}

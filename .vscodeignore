@@ -1,0 +1,10 @@
+.vscode/**
+.vscode-test/**
+.gitignore
+.claude/**
+CLAUDE.local.md
+DEVELOPMENT.md
+scripts/**
+source/**
+images/preview*.png
+dist/**

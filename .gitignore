@@ -1,0 +1,8 @@
+dist/
+node_modules/
+.vscode/
+.vscode-test/
+.DS_Store
+__pycache__/
+CLAUDE.local.md
+.claude/
