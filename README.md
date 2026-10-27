@@ -8,16 +8,17 @@
 
 ## English
 
-Six vivid light themes for VS Code whose **frame is a rainbow**. The title bar, tab strip, panel, side bar,
-activity bar and status bar each take one of six colors (red, orange, yellow, green, blue, violet) around an
-off-white editor. The six themes use the same colors in the same order; each one shifts them one zone along,
-and is named after the color of its title bar.
+Nine vivid themes for VS Code whose **frame is a rainbow**. In the six rainbow themes the title bar, tab strip,
+panel, side bar, activity bar and status bar each take one of six colors (red, orange, yellow, green, blue,
+violet) around an off-white editor. The six use the same colors in the same order; each one shifts them one
+zone along, and is named after the color of its title bar. Three single-color variants — Gold, Grayscale Light
+and Grayscale Dark — paint the whole frame with one color instead.
 
 They are made for the window you only *read* in: production code, a vendored library, somebody else's
 repository. A window this loud is never mistaken for the one you edit in, and with six to choose from, each
 read-only window can have its own.
 
-![Preview: six schematic VS Code windows, each with a rainbow frame shifted one zone along](images/preview.png)
+![Preview: nine schematic VS Code windows: six with a rainbow frame shifted one zone along, plus gold, grayscale light and grayscale dark](images/preview.png)
 
 ### Variants
 
@@ -41,6 +42,15 @@ The panel (terminal, problems, output) comes right after the tab strip in the or
 on the right the frame reads title → tabs → panel → side bar clockwise. The secondary side bar shares the side
 bar's colors; VS Code has no separate color keys for it.
 
+Three single-color variants paint every frame zone with the same color, for when a rainbow is one bubble too
+many:
+
+- **Soap Bubble: Gold** — a gold frame around the same off-white editor ([preview](images/preview-gold.png))
+- **Soap Bubble: Grayscale Light** — the frame and editor in grays; the syntax colors, brackets and indent
+  guides keep their colors ([preview](images/preview-grayscale-light.png))
+- **Soap Bubble: Grayscale Dark** — the grayscale theme with its lightness flipped: a dark theme with a gray
+  frame ([preview](images/preview-grayscale-dark.png))
+
 ### Install
 
 From VS Code, open the Extensions view (`Cmd+Shift+X` / `Ctrl+Shift+X`), search for **Soap Bubble**, and
@@ -54,7 +64,7 @@ Then pick a theme with **Preferences: Color Theme** (`Cmd+K Cmd+T` / `Ctrl+K Ctr
 **Soap Bubble: …** entry.
 
 To install from a `.vsix` file instead, use **Extensions: Install from VSIX…** in the Command Palette, or
-`code --install-extension soap-bubble-0.0.1.vsix`.
+`code --install-extension soap-bubble-0.0.2.vsix`.
 
 ### Using it as the "production" window
 
@@ -104,14 +114,15 @@ Copyright (C) 2026 TinklingWay. Bearded Theme is Copyright (C) BeardedBear.
 
 ## 日本語
 
-**枠が虹**の、鮮やかな VS Code ライトテーマ 6 色。タイトルバー・タブ列・パネル・サイドバー・アクティビティバー・
+**枠が虹**の、鮮やかな VS Code テーマ 9 本。虹の 6 テーマでは、タイトルバー・タブ列・パネル・サイドバー・アクティビティバー・
 ステータスバーが 6 色(赤・橙・黄・緑・青・紫)を 1 つずつ受け持ち、灰白のエディタを囲む。6 テーマは同じ色を同じ順で使い、
-1 テーマごとに色が領域を 1 つずつずれる。名前はタイトルバーの色。
+1 テーマごとに色が領域を 1 つずつずれる。名前はタイトルバーの色。単色のバリエーション 3 本(Gold・Grayscale Light・
+Grayscale Dark)は、枠全体を 1 色で塗る。
 
 本番コード・取り込んだライブラリ・他人のリポジトリなど、**読むだけの窓**に当てるためのもの。これだけ派手なら、
 普段編集している窓と見間違えようがない。6 色あるので、読むだけの窓が複数あってもそれぞれに別の色を当てられる。
 
-![プレビュー: 虹の枠が 1 領域ずつずれた 6 つの VS Code の窓の模式図](images/preview.png)
+![プレビュー: 9 つの VS Code の窓の模式図。虹の枠が 1 領域ずつずれた 6 つと、金・グレーのライト・グレーのダーク](images/preview.png)
 
 ### バリエーション
 
@@ -134,6 +145,14 @@ Copyright (C) 2026 TinklingWay. Bearded Theme is Copyright (C) BeardedBear.
 パネル(ターミナル・問題・出力)をタブ列の次に置いているのは、右に寄せて使うとき枠が タイトル → タブ → パネル → サイドバー と
 時計回りに読めるようにするため。セカンダリサイドバーはサイドバーと色を共有する(VS Code に専用の色キーが無い)。
 
+虹では泡が多すぎるときのために、枠の全領域を同じ 1 色で塗る単色のバリエーションが 3 本ある。
+
+- **Soap Bubble: Gold** — 同じ灰白のエディタを金の枠で囲む([プレビュー](images/preview-gold.png))
+- **Soap Bubble: Grayscale Light** — 枠もエディタも灰色。構文色・括弧・インデントガイドの色はそのまま
+  ([プレビュー](images/preview-grayscale-light.png))
+- **Soap Bubble: Grayscale Dark** — Grayscale の明度を反転したもの。灰色の枠のダークテーマ
+  ([プレビュー](images/preview-grayscale-dark.png))
+
 ### インストール
 
 VS Code の拡張機能ビュー(`Cmd+Shift+X` / `Ctrl+Shift+X`)で **Soap Bubble** を検索してインストールする。コマンドパレットから
@@ -146,7 +165,7 @@ ext install tinklingway.soap-bubble
 そのあと **基本設定: 配色テーマ**(`Cmd+K Cmd+T` / `Ctrl+K Ctrl+T`)で **Soap Bubble: 〜** のどれかを選ぶ。
 
 `.vsix` ファイルから入れる場合は、コマンドパレットの **拡張機能: VSIX からのインストール…** か、
-`code --install-extension soap-bubble-0.0.1.vsix` を使う。
+`code --install-extension soap-bubble-0.0.2.vsix` を使う。
 
 ### 「本番の窓」として使う
 

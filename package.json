@@ -1,8 +1,8 @@
 {
   "name": "soap-bubble",
   "displayName": "Soap Bubble",
-  "description": "Six vivid light themes with a rainbow frame, for windows you only read: production code, vendored libraries, other people's repositories. Title bar, tabs, panel, side bar, activity bar and status bar each take one of six colors; each theme shifts the colors one zone along.",
-  "version": "0.0.1",
+  "description": "Nine vivid themes with a colored frame, for windows you only read: production code, vendored libraries, other people's repositories. Six rainbow themes where title bar, tabs, panel, side bar, activity bar and status bar each take one of six colors, shifted one zone along per theme, plus Gold, Grayscale Light and Grayscale Dark.",
+  "version": "0.0.2",
   "publisher": "tinklingway",
   "license": "GPL-3.0-only",
   "repository": {
@@ -28,7 +28,10 @@
     "theme",
     "color-theme",
     "light",
+    "dark",
     "rainbow",
+    "grayscale",
+    "gold",
     "vivid",
     "soap",
     "bubble",
@@ -67,6 +70,21 @@
         "label": "Soap Bubble: Violet",
         "uiTheme": "vs",
         "path": "./themes/violet-color-theme.json"
+      },
+      {
+        "label": "Soap Bubble: Gold",
+        "uiTheme": "vs",
+        "path": "./themes/gold-color-theme.json"
+      },
+      {
+        "label": "Soap Bubble: Grayscale Light",
+        "uiTheme": "vs",
+        "path": "./themes/grayscale-light-color-theme.json"
+      },
+      {
+        "label": "Soap Bubble: Grayscale Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/grayscale-dark-color-theme.json"
       }
     ]
   }

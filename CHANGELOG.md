@@ -3,6 +3,13 @@
 All notable changes to Soap Bubble. Format follows [Keep a Changelog](https://keepachangelog.com/).
 Soap Bubble の変更履歴。書き方は [Keep a Changelog](https://keepachangelog.com/ja/) に沿う。
 
+## [0.0.2] - 2026-10-27
+
+### Added
+
+- Three single-color variants: Gold (gold frame around the same off-white editor), Grayscale Light (frame and editor in grays, syntax colors kept) and Grayscale Dark (the grayscale theme with its lightness flipped: a dark theme with a gray frame). The rainbow bracket pairs and indent guides stay in all three.
+  単色のバリエーション 3 本: Gold(同じ灰白のエディタを金の枠で囲む)、Grayscale Light(枠もエディタも灰色。構文色はそのまま)、Grayscale Dark(Grayscale の明度を反転した、灰色の枠のダークテーマ)。括弧の対とインデントガイドの虹は 3 本とも残る
+
 ## [0.0.1] - 2026-10-26
 
 ### Added
